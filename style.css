@@ -1,0 +1,382 @@
+
+
+/* ===== FIRST PAGE – PROFESSIONAL CREAM THEME ===== */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #faf7f2;
+  color: #333;
+}
+
+/* HEADER */
+.site-header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.site-header p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.site-header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.site-header nav a:hover {
+  color: #c9a654;
+}
+
+/* HERO */
+.hero {
+  height: 85vh;
+  background: url("images/shop.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.55);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-overlay h2 {
+  font-size: 2.6rem;
+  max-width: 900px;
+}
+
+.hero-overlay p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+.hero-btn {
+  margin-top: 25px;
+  padding: 14px 32px;
+  background: #d6b36a;
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* SECTIONS */
+.about, .gallery, .cta, .contact {
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about p {
+  max-width: 850px;
+  margin: 15px auto;
+  font-size: 1.05rem;
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.gallery-grid img {
+  width: 320px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* CTA */
+.cta {
+  background: #fffdf7;
+  border-radius: 12px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* CONTACT */
+.contact {
+  background: #f5f1e8;
+}
+
+/* FOOTER */
+.footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.85rem;
+}
+
+
+/* ===== DJ SETUP BUILDER – CREAM THEME ===== */
+
+body {
+  background: #faf7f2;
+  color: #333;
+}
+
+/* HEADER */
+.top {
+  background: #fff;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 2px solid #d6b36a;
+}
+
+.top h1 {
+  font-size: 2rem;
+  color: #2b2b2b;
+}
+
+.top p {
+  color: #666;
+}
+
+/* LAYOUT */
+.builder-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* CARDS */
+.builder-form,
+.summary-card {
+  background: #fffdf9;
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* FORM */
+.builder-form h2 {
+  margin-bottom: 20px;
+  border-left: 4px solid #d6b36a;
+  padding-left: 10px;
+  color: #3a3a3a;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 12px;
+  background: #f8f6f2;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+select:focus,
+input:focus {
+  outline: none;
+  border-color: #d6b36a;
+}
+
+/* ADD BUTTON */
+.builder-form button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px;
+  background: #d6b36a;
+  color: #2b2b2b;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.builder-form button:hover {
+  background: #c9a654;
+}
+
+/* SUMMARY */
+.summary-card h2 {
+  margin-bottom: 15px;
+  border-left: 4px solid #6aa86d;
+  padding-left: 10px;
+  color: #3a3a3a;
+}
+
+.summary-card ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.summary-card li {
+  padding: 12px;
+  background: #f7f4ee;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+/* TOTAL */
+.summary-card h3 {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #2e7d32;
+}
+
+/* WHATSAPP BUTTON */
+.summary-card button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.summary-card button:hover {
+  background: #1ebe5d;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .builder-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+/* ===== TEXT POLISH FOR SETUP BUILDER ===== */
+
+.form-subtext {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.helper {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.summary-subtext {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Better spacing between inputs */
+.builder-form label {
+  margin-top: 18px;
+}
+
+/* Make dropdown text cleaner */
+select option {
+  font-size: 0.9rem;
+}
+
+/* Summary list refinement */
+.summary-card li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  line-height: 1.4;
+}
+/* ===== FIRST PAGE SOCIAL SECTION ===== */
+
+.social-proof {
+  padding: 70px 20px;
+  text-align: center;
+  background: #fffdf9;
+}
+
+.social-proof h2 {
+  color: #333;
+}
+
+.social-subtext {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.social-links {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.social {
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+
+  background: #faf7f2;
+  color: #2b2b2b;
+  border: 1px solid #d6b36a;
+
+  transition: all 0.25s ease;
+}
+
+.social:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* subtle brand hint on hover */
+.social.yt:hover { border-color: #ff0000; }
+.social.ig:hover { border-color: #e1306c; }
+.social.fb:hover { border-color: #1877f2; }
