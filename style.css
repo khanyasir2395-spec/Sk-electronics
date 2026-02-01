@@ -380,3 +380,98 @@ select option {
 .social.yt:hover { border-color: #ff0000; }
 .social.ig:hover { border-color: #e1306c; }
 .social.fb:hover { border-color: #1877f2; }
+
+
+/* ===== MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .site-header nav {
+    margin-top: 10px;
+  }
+
+  .site-header nav a {
+    margin-left: 0;
+    margin-right: 15px;
+    font-size: 0.9rem;
+  }
+
+  /* HERO */
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-overlay h2 {
+    font-size: 1.7rem;
+    line-height: 1.3;
+  }
+
+  .hero-overlay p {
+    font-size: 0.95rem;
+  }
+
+  .hero-btn {
+    padding: 14px 26px;
+    font-size: 0.95rem;
+  }
+
+  /* SECTIONS */
+  .about,
+  .gallery,
+  .cta,
+  .contact,
+  .social-proof {
+    padding: 50px 18px;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
+
+  /* GALLERY */
+  .gallery-grid img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
+
+  /* CTA BUTTON */
+  .cta-btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .cta-btn span {
+    font-size: 0.7rem;
+  }
+
+  /* SOCIAL LINKS */
+  .social-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .social {
+    width: 100%;
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* CONTACT MAP */
+  .contact iframe {
+    height: 240px;
+  }
+
+  /* FOOTER */
+  .footer {
+    font-size: 0.75rem;
+    padding: 12px;
+  }
+}
