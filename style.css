@@ -1105,3 +1105,65 @@ select option {
   color: #555;
   font-size: 0.9rem;
 }
+/* ===== MAIN FOOTER ===== */
+
+.main-footer {
+  background: #2b2b2b;
+  color: #ddd;
+  padding-top: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-col p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+}
