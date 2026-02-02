@@ -1059,7 +1059,7 @@ select option {
   font-weight: bold;
   font-size: 0.9rem;
 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   z-index: 999;
 
   max-width: calc(100vw - 40px);
