@@ -868,3 +868,71 @@ select option {
     display: flex;
   }
 }
+/* ===== GOOGLE REVIEWS BADGE ===== */
+
+.reviews-badge {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fffdf9;
+}
+
+.rating {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+.rating-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 6px;
+}
+/* ===== TESTIMONIALS ===== */
+
+.testimonials {
+  padding: 70px 20px;
+  text-align: center;
+  background: #f7f4ee;
+}
+
+.testimonial-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-card {
+  background: #fffdf9;
+  padding: 22px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #444;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.testimonial-card span {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #777;
+}
+/* ===== BACK TO TOP ===== */
+
+#backToTop {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  padding: 10px 14px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50%;
+  background: #2b2b2b;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}

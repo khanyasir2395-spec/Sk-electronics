@@ -182,3 +182,11 @@ function toggleMenu() {
   const menu = document.getElementById("mobileMenu");
   menu.classList.toggle("show");
 }
+window.addEventListener("scroll", () => {
+  const btn = document.getElementById("backToTop");
+  btn.style.display = window.scrollY > 400 ? "block" : "none";
+});
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
