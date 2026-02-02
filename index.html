@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SK Electronics Kolkata</title>
+  <title>S.K.Electronics Kolkata</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="logo">
-      <h1>SK Electronics Kolkata</h1>
-      <p>DJ • Sound • Professional Audio</p>
-    </div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#builder">DJ Setup</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+ <header class="site-header">
+  <div class="logo">
+    <h1>S.K.Electronics Kolkata</h1>
+    <p>DJ • Sound • Professional Audio</p>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <nav id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+    <a href="#builder" onclick="toggleMenu()">DJ Setup</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+  </nav>
+</header>
+
 
   <!-- HERO -->
   <section class="hero">
