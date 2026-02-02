@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 
 /* ===== FIRST PAGE – PROFESSIONAL CREAM THEME ===== */
@@ -280,6 +284,12 @@ input:focus {
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: calc(100vw - 40px);
 }
 
 .summary-card button:hover {
