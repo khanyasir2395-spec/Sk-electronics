@@ -1249,3 +1249,38 @@ select option {
     margin-right: 8px;
   }
 }
+/* ABOUT PAGE */
+.about-hero {
+  padding: 120px 8% 80px;
+  background: #0d0d0d;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 15px;
+  color: #cccccc;
+}
+
+/* VISUAL PROOF */
+.about-visual-proof {
+  background: #111;
+  padding: 70px 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  text-align: center;
+  gap: 30px;
+}
+
+.proof-item h3 {
+  font-size: 32px;
+}
+
+.proof-item p {
+  font-size: 14px;
+  color: #bbbbbb;
+}
