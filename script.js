@@ -190,3 +190,18 @@ window.addEventListener("scroll", () => {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+function toggleMenu() {
+  document.getElementById("mobileMenu")
+    .classList.toggle("active");
+}
+
+
+const btn = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 400) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+});
